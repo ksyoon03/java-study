@@ -14,6 +14,7 @@ public class Main {
                 .name("롬복")
                 .address("미국")
                 .build();
+
         LombokUser u2 = new LombokUser(
                 "롬복맨",
                 "롬복",

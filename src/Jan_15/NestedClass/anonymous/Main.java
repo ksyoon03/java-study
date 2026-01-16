@@ -27,7 +27,7 @@ public class Main {
             public void hello() {
                 System.out.println("반갑습니다");
             }
-        };
+        }; hi.hello();
 
         // 람다를 쓸 때 인터페이스 익명클래스를 사용하게 됨
         // 자바에서는 메서드가 단독 존재 x

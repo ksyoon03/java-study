@@ -57,6 +57,7 @@ public class ItemMain {
                 .reduce(0, (sum2, num) -> sum2 + num);
 
         // [[1, 2], [3, 4], [5,6]] -> [1,2,3,4,5,6]
+        // [{a:[], b:""}, {}, {}]
         List<List<Integer>> lists = List.of(
                 List.of(1,2),
                 List.of(3,4),
